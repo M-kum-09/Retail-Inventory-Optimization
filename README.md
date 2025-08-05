@@ -2,7 +2,7 @@
 Analyzing inventory efficiency using SQL and Power BI
 
 1. Project Overview:
-  This project focuses on optimizing inventory levels for a retail business using a combination of SQL     for data analysis and Power BI for visualization. The goal is to help businesses identify stock          imbalances, improve inventory turnover, and increase profitability.
+  This project focuses on optimizing inventory levels for a retail business using a combination of SQL for data analysis and Power BI for visualization. The goal     is to help businesses identify stock imbalances, improve inventory turnover, and increase profitability.
 
 2. Tools & Technologies Used:
    SQL Server – Data cleaning, exploration, and business logic
@@ -12,7 +12,8 @@ Analyzing inventory efficiency using SQL and Power BI
 
 3. Dataset Summary
 
-  Name: Retail_Inventory_Optimization_Large_Dataset.csvSize: 1,000 products with the following          columns:
+   Name: Retail_Inventory_Optimization_Large_Dataset.csvSize: 1,000 products with the following          
+   columns:
   Product_ID
   Product_Name
   Category
@@ -36,26 +37,26 @@ Analyzing inventory efficiency using SQL and Power BI
 
  5. Power BI Dashboard Highlights
 
-  The dashboard includes the following visuals:
-  - KPI Cards
-        Total Units Sold
-        Total Stock Available
-        Average Profit Margin (DAX calculated)
+    The dashboard includes the following visuals:
+      - KPI Cards
+         Total Units Sold
+         Total Stock Available
+         Average Profit Margin (DAX calculated)
 
-  - Top 10 Best-Selling Products
-       Clustered column chart
-       Sorted by Units_Sold_Last_Month
+      - Top 10 Best-Selling Products
+        Clustered column chart
+        Sorted by Units_Sold_Last_Month
 
-  - Products Below Reorder Level
-        Table visual with Below_Reorder = 1 filter
-        Columns: Product Name, Stock Quantity, Reorder Level
+      - Products Below Reorder Level
+         Table visual with Below_Reorder = 1 filter
+         Columns: Product Name, Stock Quantity, Reorder Level
 
-  - Overstocked Products
-       Table visual with Overstocked = 1 filter
-       Columns: Product Name, Stock Quantity, Units Sold Last Month
+      - Overstocked Products
+        Table visual with Overstocked = 1 filter
+        Columns: Product Name, Stock Quantity, Units Sold Last Month
 
-  - Profit Per Product
-        Clustered column chart using Profit_Per_Unit = Price - Cost
+      - Profit Per Product
+         Clustered column chart using Profit_Per_Unit = Price - Cost
 
 6.  Key Insights
     - Highlighted products at risk of stockouts to prevent missed sales
